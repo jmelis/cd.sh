@@ -1,4 +1,4 @@
-TO_DIR=$HOME/.to
+TO_DIR=$HOME/.cd
 TO_DB=$TO_DIR/db
 
 mkdir -p $TO_DIR
