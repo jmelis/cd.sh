@@ -13,4 +13,4 @@ echo -e  "\033[0;34mSource cd.sh with bash.\033[0m"
 echo -e "\nsource ~/.cd/cd.sh" >> ~/.bashrc
 
 echo -e "\n\n \033[0;32mcd.sh is now installed.\033[0m"
-source ~/.cd/cd.sh
+echo -e "Open a new terminal or run '\033[0;32msource ~/.cd/cd.sh\033[0m'"
