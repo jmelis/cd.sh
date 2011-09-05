@@ -13,7 +13,7 @@ function cd() {
     elif [ -z "$1" ]; then
         builtin cd
     else
-        dir=$(grep ^$1: $TO_DB|cut -d: -f2)
+        dir=$(grep ^$1: $TO_DB|cut -d: -f2-)
         if [ -n "$dir" ]; then
             echo "$dir"
             cd "$dir"
